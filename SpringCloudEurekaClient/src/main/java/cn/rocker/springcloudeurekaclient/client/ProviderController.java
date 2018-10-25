@@ -15,9 +15,9 @@ import javax.annotation.Resource;
  * @date 2018/10/24 15:06
  */
 @RestController
-public class Hello {
+public class ProviderController {
 
-    private final Logger logger = LoggerFactory.getLogger(Hello.class);
+    private final Logger logger = LoggerFactory.getLogger(ProviderController.class);
 
     @Resource
     private DiscoveryClient discoveryClient;
